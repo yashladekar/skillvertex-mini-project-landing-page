@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Questrial&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.5);
+}
+
+.first_jumbotrons {
+    margin-top: 5rem;
+    padding: 5rem;
+    text-align: center;
+    background-color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.first_jumbotrons p {
+    margin: 1.5rem;
+    font-size: 24px;
+    /* height: 5rem; */
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition-delay: 5ms;
+}
+
+.juice-logo {
+    height: 10%;
+    width: 10%;
+}
+
+.fImagecontainer {
+    margin-top: -80px;
+    height: 550px;
+}
+
+.fImage {
+    width: 100%;
+    height: 400PX;
+    z-index: -1;
+    object-fit: cover;
+    will-change: transform;
+    /* box-shadow: 1px -5px 10px -1px rgba(0, 0, 0, 0.69); */
+    /* position: fixed; */
+    height: 100%;
+}
+
+.offers {
+    padding: 1.7rem;
+    background-color: #F5E8FF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+    color: black;
+}
+
+.offers p {
+    margin: 0;
+    font-size: 22px;
+}
+
+.offers a {
+    color: black;
+    text-decoration: underline;
+}
+
+.spacility {
+    line-height: 1.3em;
+    text-align: center;
+    font-size: 55px;
+    margin: 5rem;
+    font-family: 'Questrial', sans-serif;
+}
+
+.marketing {
+    text-align: center;
+    margin: auto;
+    margin-top: -70px;
+    margin-bottom: 2.5rem;
+}
+
+.marketing .row {
+    text-align: left;
+}
+
+.row h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.row P {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75em;
+}
+
+.svgImg {
+    height: 30%;
+    width: 30%;
+    margin: 79px 0px 27px calc((100% - 326px) * 1);
+}
+
+.vision {
+    background-color: hsl(80, 85%, 86%);
+    padding: 5.5rem;
+}
+
+.visionContainer {
+    margin: 6rem;
+}
+
+.fourthImg {
+    position: absolute;
+    width: 80%;
+    bottom: -88px;
+}
+
+.mHeading {
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.wellness {
+    margin-bottom: 1.6rem;
+}
+
+.lineHr {
+    margin: auto;
+    /* margin-top: -70px; */
+    border: 5px dotted rgb(250, 188, 72);
+    border-bottom: none;
+    /* letter-spacing: rem; */
+    width: 75%;
+}
+
+.secFifth {
+    margin: 2.5rem;
+    padding-bottom: 1.5rem;
+    background-color: hsl(273, 100%, 95%);
+}
+
+.mImg {
+    margin-top: 6rem;
+    width: 98%;
+    margin-bottom: 1.5rem;
+}
+
+.visionImg {
+    width: 80%;
+    height: 90%;
+    margin-left: 20px;
+}
+
+.font_8 {
+    text-align: center;
+    font-size: 17px;
+    margin: 1rem;
+}
+
+.number {
+    width: 50px;
+    height: 40px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 1.5rem;
+}
+
+.footer {
+    background-color: black;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+    color: white;
+}
+
+.footer a {
+    color: lightblue;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .fourthImg {
+        position: relative;
+    }
+    .visionContainer {
+        margin: 0;
+        margin-bottom: 5rem;
+    }
+    .vision {
+        background-color: hsl(80, 85%, 86%);
+        padding: 0.5rem;
+    }
+}
